@@ -1,8 +1,9 @@
 {
   "rewrites": [
     { "source": "/api/(.*)", "destination": "/api/$1" },
+    { "source": "/blog/", "destination": "/blog/index.html" },
     { "source": "/blog", "destination": "/blog/index.html" },
-    { "source": "/blog/(.*)", "destination": "/blog/$1.html" },
+    { "source": "/blog/:path*", "destination": "/blog/:path*.html" },
     { "source": "/(.*)", "destination": "/index.html" }
   ],
   "headers": [
