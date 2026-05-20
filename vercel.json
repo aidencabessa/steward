@@ -1,6 +1,5 @@
 {
   "rewrites": [
-    { "source": "/api/(.*)", "destination": "/api/$1" },
     { "source": "/robots.txt", "destination": "/api/robots" },
     { "source": "/llms.txt", "destination": "/api/llms" },
     { "source": "/(.*)", "destination": "/index.html" }
