@@ -1,6 +1,6 @@
 export default function handler(req, res) {
   res.setHeader('Content-Type', 'text/plain');
-  res.send(`# Steward Weekly
+  res.end(`# Steward Weekly
 > Free weekly newsletter keeping independent landlords up to date on rental law changes across all 50 US states.
 
 ## Key pages
