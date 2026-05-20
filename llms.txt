@@ -1,0 +1,20 @@
+# Steward Weekly
+> Free weekly newsletter keeping independent landlords up to date on rental law changes across all 50 US states.
+
+## Key pages
+- Homepage: https://steward-brown.vercel.app
+- Newsletter signup: https://steward-brown.vercel.app/#subscribe
+
+## What we cover
+- New landlord-tenant legislation (state, county, city level)
+- Lease & document compliance tips
+- State-specific rental law alerts
+- Plain-English summaries of legal changes
+
+## Who it's for
+Independent landlords managing 1-10 rental properties in the US.
+
+## Stats
+- 17M+ independent landlords targeted
+- 50 states covered
+- 3,200+ local rental law changes tracked in 2024
