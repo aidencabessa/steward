@@ -30,22 +30,50 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Steward Weekly — Rental Law Updates for Independent Landlords</title>
 <meta name="description" content="Free weekly newsletter for independent landlords. Get plain-English summaries of rental law changes in your state before they become problems.">
+<link rel="canonical" href="https://steward-brown.vercel.app">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://steward-brown.vercel.app">
 <meta property="og:title" content="Steward Weekly — Free Newsletter for Landlords">
 <meta property="og:description" content="Rental law changes explained in plain English. Free weekly newsletter for independent landlords.">
+<meta property="og:image" content="https://steward-brown.vercel.app/og-image.png">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Steward Weekly — Free Newsletter for Landlords">
+<meta name="twitter:description" content="Rental law changes explained in plain English. Free weekly newsletter for independent landlords.">
+<meta name="twitter:image" content="https://steward-brown.vercel.app/og-image.png">
+
+<!-- Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://steward-brown.vercel.app/#organization",
+      "name": "Steward Weekly",
+      "url": "https://steward-brown.vercel.app",
+      "description": "Free weekly newsletter keeping independent landlords up to date on rental law changes across all 50 US states.",
+      "sameAs": []
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://steward-brown.vercel.app/#website",
+      "url": "https://steward-brown.vercel.app",
+      "name": "Steward Weekly",
+      "description": "Free weekly newsletter for independent landlords. Get plain-English summaries of rental law changes in your state before they become problems.",
+      "publisher": {
+        "@id": "https://steward-brown.vercel.app/#organization"
+      }
+    }
+  ]
+}
+</script>
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Epilogue:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-<style>
-*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
-:root {
-  --navy: #0d1b2a; --navy-mid: #1a2f45; --navy-light: #243d57;
-  --blue: #1e6091; --blue-bright: #2d8fd4;
-  --sky: #e8f4fd; --sky-mid: #c8e4f5;
-  --white: #ffffff; --off: #f7f9fc;
-  --text: #1a2535; --muted: #5a6a7e; --border: #dde6ef;
-  --gold: #d4a843; --red: #c0392b; --green: #27784a;
-}
-html { scroll-behavior: smooth; }
-body { font-family: 'Epilogue', sans-serif; background: var(--white); color: var(--text); overflow-x: hidden; }
 
 /* NAV */
 nav { position: fixed; top: 0; left: 0; right: 0; z-index: 200; height: 68px; display: flex; align-items: center; justify-content: space-between; padding: 0 64px; background: rgba(255,255,255,0.95); backdrop-filter: blur(16px); border-bottom: 1px solid var(--border); }
