@@ -2,8 +2,8 @@
 > Free weekly newsletter keeping independent landlords up to date on rental law changes across all 50 US states.
 
 ## Key pages
-- Homepage: www.stewardweekly.com
-- Newsletter signup: www.stewardweekly.com/#subscribe
+- Homepage: https://www.stewardweekly.com
+- Newsletter signup: https://www.stewardweekly.com/#subscribe
 
 ## What we cover
 - New landlord-tenant legislation (state, county, city level)
