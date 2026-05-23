@@ -1,4 +1,11 @@
 {
+  "headers": [
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "steward-brown.vercel.app" }],
+      "headers": [{ "key": "X-Robots-Tag", "value": "noindex" }]
+    }
+  ],
   "rewrites": [
     { "source": "/api/(.*)", "destination": "/api/$1" }
   ],
