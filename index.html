@@ -216,47 +216,30 @@ footer { background: #070f18; padding: 48px 64px; display: flex; justify-content
     gtag('config', 'G-Y3JYMKKBLR');
   </script>
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "NewsletterService",
-    "name": "Steward Weekly",
-    "description": "Free weekly newsletter for independent landlords. Plain-English summaries of rental law changes across all 50 states.",
-    "url": "https://www.stewardweekly.com",
-    "publisher": {
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://www.stewardweekly.com/#website",
+      "name": "Steward Weekly",
+      "url": "https://www.stewardweekly.com",
+      "description": "Free weekly newsletter for independent landlords. Plain-English summaries of rental law changes across all 50 states.",
+      "inLanguage": "en-US"
+    },
+    {
       "@type": "Organization",
-      "name": "Steward Weekly"
-    },
-    "about": {
-      "@type": "Thing",
-      "name": "Landlord tenant law, rental property compliance, real estate law"
-    },
-    "audience": {
-      "@type": "Audience",
-      "audienceType": "Independent landlords and rental property owners"
-    },
-    "isAccessibleForFree": true,
-    "inLanguage": "en-US"
-  }
-  </script>
-  <!-- Structured Data -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "NewsletterService",
-    "name": "Steward Weekly",
-    "description": "Free weekly newsletter for independent landlords covering rental law changes across all 50 states in plain English.",
-    "url": "https://www.stewardweekly.com",
-    "publisher": {
-      "@type": "Organization",
-      "name": "Steward Weekly"
-    },
-    "inLanguage": "en-US",
-    "audience": {
-      "@type": "Audience",
-      "audienceType": "Independent landlords and rental property owners"
+      "@id": "https://www.stewardweekly.com/#organization",
+      "name": "Steward Weekly",
+      "url": "https://www.stewardweekly.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.stewardweekly.com/og-image.png"
+      }
     }
-  }
-  </script>
+  ]
+}
+</script>
 </head>
 <body>
 
