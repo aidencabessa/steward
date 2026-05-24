@@ -22,4 +22,4 @@ Allow: /
 User-agent: Bingbot
 Allow: /
 
-Sitemap: www.stewardweekly.com/sitemap.xml
+Sitemap: https://www.stewardweekly.com/sitemap.xml
